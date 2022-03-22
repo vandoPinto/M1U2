@@ -1,0 +1,88 @@
+<style>
+    .frame {
+        width: 937px;
+        height: 522px;
+        border: 0;
+        -ms-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+
+        -ms-transform-origin: 0 0;
+        -moz-transform-origin: 0 0;
+        -o-transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+        margin-bottom: 10px;
+    }
+</style>
+<link rel="stylesheet" href="../css/normalize.css">
+<link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/exercicios.css">
+<link rel="stylesheet" href="../css/modal.css">
+<!--<link rel="stylesheet" href="js/vendor/jquery-ui.min.css">-->
+<link rel="stylesheet" href="../css/telas.css">
+
+
+<link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+<script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+<script src="../bootstrap/jquery/jquery-3.5.1.min.js"></script>
+<script src="../bootstrap/jquery/jquery-3.5.1.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<!-- Scripts -->
+<!--<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="js/vendor/jquery-ui.min.js" ></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-3.1.1.min.js"><\/script>')
+
+    </script>-->
+<script src="../js/plugins.js"></script>
+<script src="../js/main.js"></script>
+
+<div style="overflow: scroll;width: 100%;height: 100%;">
+
+    <div id="click_1" style="width: 860px;height: 262px;background-color: white;">
+        <iframe id="myIframe_1" class="frame" src="../tela-1.html"></iframe>
+    </div>
+    <div id="click_1" style="width: 860px;height: 262px;background-color: white;">
+        <iframe id="myIframe_1" class="frame" src="../tela-2.html"></iframe>
+    </div>
+    <div id="click_1" style="width: 860px;height: 262px;background-color: white;">
+        <iframe id="myIframe_1" class="frame" src="../tela-3.html"></iframe>
+    </div>
+    <div id="click_1" style="width: 860px;height: 262px;background-color: white;">
+        <iframe id="myIframe_1" class="frame" src="../tela-4.html"></iframe>
+    </div>
+    <div id="click_1" style="width: 860px;height: 262px;background-color: white;">
+        <iframe id="myIframe_1" class="frame" src="../tela-5.html"></iframe>
+    </div>
+    <div id="click_1" style="width: 860px;height: 262px;background-color: white;">
+        <iframe id="myIframe_1" class="frame" src="../tela-7.html"></iframe>
+    </div>
+    <div id="click_1" style="width: 860px;height: 262px;background-color: white;">
+        <iframe id="myIframe_1" class="frame" src="../tela-9.html"></iframe>
+    </div>
+</div>
+
+<script>
+    $(() => {
+
+         $(document).find('[id^=click]').click((elemento)=>{
+             console.log(elemento.target.id);
+         })
+
+        $("#myIframe_1").on('load', () => {
+            $('#click_1').click(() => {
+                console.log($("#myIframe_1").contents().find('body').html())
+            })
+
+        })
+
+    })
+</script>

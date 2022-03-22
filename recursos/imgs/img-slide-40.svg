@@ -1,0 +1,139 @@
+<svg id="img-slide-40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="338.06" height="430.514" viewBox="0 0 338.06 430.514">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_995" data-name="Retângulo 995" width="338.06" height="430.514" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="Retângulo_986" data-name="Retângulo 986" width="144.351" height="106.16" transform="translate(26.118 41.06)" fill="#ebf2f7"/>
+  <rect id="Retângulo_987" data-name="Retângulo 987" width="144.351" height="106.16" transform="translate(175.011 41.06)" fill="#6dafcc"/>
+  <rect id="Retângulo_988" data-name="Retângulo 988" width="144.351" height="106.16" transform="translate(175.011 151.479)" fill="#6dafcc"/>
+  <rect id="Retângulo_989" data-name="Retângulo 989" width="144.351" height="106.16" transform="translate(26.118 151.479)" fill="#ebf2f7"/>
+  <text id="E3" transform="translate(150.582 137.931)" fill="#414042" font-size="12" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">E3</tspan></text>
+  <text id="E4" transform="translate(150.582 168.315)" fill="#414042" font-size="12" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">E4</tspan></text>
+  <text id="E2" transform="translate(179.334 137.931)" fill="#414042" font-size="12" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">E2</tspan></text>
+  <text id="E1" transform="translate(179.334 168.315)" fill="#414042" font-size="12" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">E1</tspan></text>
+  <text id="COMPORTAMENTO_DE_APOIO" data-name="COMPORTAMENTO DE APOIO" transform="translate(17.856 228.713) rotate(-90)" fill="#414042" font-size="10" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">COMPORTAMENTO DE APOIO</tspan></text>
+  <path id="Caminho_1420" data-name="Caminho 1420" d="M245.533,307.636l-21.678,41.348L245.5,390.3h71.857V307.636Z" fill="#1b8992"/>
+  <rect id="Retângulo_990" data-name="Retângulo 990" width="85.953" height="82.663" transform="translate(24.118 307.636)" fill="#2f5579"/>
+  <path id="Caminho_1421" data-name="Caminho 1421" d="M101.784,307.636,80.106,348.984,101.751,390.3h71.857l-21.644-41.315,21.677-41.348Z" fill="#fcc103"/>
+  <path id="Caminho_1422" data-name="Caminho 1422" d="M173.949,307.636l-21.678,41.348L173.916,390.3h71.858L224.13,348.984l21.677-41.348Z" fill="gray"/>
+  <text id="D4" transform="translate(37.356 355.442)" fill="#fff" font-size="23.674" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">D4</tspan></text>
+  <text id="D3" transform="translate(105.871 355.442)" fill="#fff" font-size="23.674" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">D3</tspan></text>
+  <text id="D2" transform="translate(178.077 355.442)" fill="#fff" font-size="23.674" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">D2</tspan></text>
+  <text id="D1" transform="translate(260.157 355.442)" fill="#fff" font-size="23.674" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">D1</tspan></text>
+  <text id="Alta" transform="translate(47.731 317.858)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Alta</tspan></text>
+  <text id="Competência" transform="translate(28.011 327.457)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Competência</tspan></text>
+  <text id="Alto" transform="translate(47.875 371.258)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Alto</tspan></text>
+  <text id="Empenho" transform="translate(36.54 380.858)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Empenho</tspan></text>
+  <text id="Média_a_alta" data-name="Média a alta" transform="translate(101.875 317.858)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Média a alta</tspan></text>
+  <text id="Competência-2" data-name="Competência" transform="translate(99.315 327.457)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Competência</tspan></text>
+  <text id="Empenho-2" data-name="Empenho" transform="translate(107.843 371.258)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Empenho</tspan></text>
+  <text id="Variável" transform="translate(110.587 380.858)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Variável</tspan></text>
+  <text id="Baixa_a_alguma" data-name="Baixa a alguma" transform="translate(171.636 317.858)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Baixa a alguma</tspan></text>
+  <text id="Compentência" transform="translate(172.892 327.457)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Compentência</tspan></text>
+  <text id="Baixo" transform="translate(192.396 371.258)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Baixo</tspan></text>
+  <text id="Empenho-3" data-name="Empenho" transform="translate(183.979 380.858)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Empenho</tspan></text>
+  <text id="Baixa" transform="translate(268.627 317.858)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Baixa</tspan></text>
+  <text id="Competência-3" data-name="Competência" transform="translate(251.827 327.457)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Competência</tspan></text>
+  <text id="Alto-2" data-name="Alto" transform="translate(271.691 371.258)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Alto</tspan></text>
+  <text id="Empenho-4" data-name="Empenho" transform="translate(260.355 380.858)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Empenho</tspan></text>
+  <path id="Caminho_1423" data-name="Caminho 1423" d="M15.428,256.8v0Z"/>
+  <rect id="Retângulo_991" data-name="Retângulo 991" width="2" height="22.687" transform="translate(14.428 234.108)" fill="#294667"/>
+  <path id="Caminho_1424" data-name="Caminho 1424" d="M15.428,79.295v0Z"/>
+  <rect id="Retângulo_992" data-name="Retângulo 992" width="2" height="27.937" transform="translate(14.428 51.358)" fill="#294667"/>
+  <line id="Linha_52" data-name="Linha 52" x1="6.098" y2="6.098" transform="translate(9.879 46.609)"/>
+  <rect id="Retângulo_993" data-name="Retângulo 993" width="8.624" height="2" transform="matrix(0.707, -0.707, 0.707, 0.707, 9.172, 52)" fill="#294667"/>
+  <line id="Linha_53" data-name="Linha 53" x2="6.256" y2="6.256" transform="translate(14.721 46.452)"/>
+  <rect id="Retângulo_994" data-name="Retângulo 994" width="2" height="8.847" transform="matrix(0.707, -0.707, 0.707, 0.707, 14.013, 47.158)" fill="#294667"/>
+  <text id="Alto-3" data-name="Alto" transform="translate(5 34.827)" fill="#294667" font-size="10" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Alto</tspan></text>
+  <text id="Alto-4" data-name="Alto" transform="translate(294.99 273.876)" fill="#294667" font-size="10" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Alto</tspan></text>
+  <g id="Grupo_1303" data-name="Grupo 1303">
+    <g id="Grupo_1302" data-name="Grupo 1302" clip-path="url(#clip-path)">
+      <text id="Baixo-2" data-name="Baixo" transform="translate(0 273.745)" fill="#294667" font-size="10" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Baixo</tspan></text>
+    </g>
+  </g>
+  <text id="Alto-5" data-name="Alto" transform="translate(32.74 298.2)" fill="#294667" font-size="10" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Alto</tspan></text>
+  <text id="Baixo-3" data-name="Baixo" transform="translate(284.57 298.2)" fill="#294667" font-size="10" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Baixo</tspan></text>
+  <text id="Moderado" transform="translate(144.5 298.2)" fill="#294667" font-size="10" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Moderado</tspan></text>
+  <g id="Grupo_1305" data-name="Grupo 1305">
+    <g id="Grupo_1304" data-name="Grupo 1304" clip-path="url(#clip-path)">
+      <text id="O_MODELO_DA_LIDERANÇA_SITUACIONAL_II" data-name="O MODELO DA LIDERANÇA SITUACIONAL II" transform="translate(12.928 13.608)" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">O MODELO DA LIDERANÇA SITUACIONAL II</tspan></text>
+    </g>
+  </g>
+  <path id="Caminho_1425" data-name="Caminho 1425" d="M34.74,271.454h0Z"/>
+  <line id="Linha_54" data-name="Linha 54" x2="55.516" transform="translate(34.74 271.455)" fill="none" stroke="#294667" stroke-miterlimit="10" stroke-width="2"/>
+  <path id="Caminho_1426" data-name="Caminho 1426" d="M245.068,271.454h0Z"/>
+  <line id="Linha_55" data-name="Linha 55" x2="27.937" transform="translate(245.068 271.455)" fill="none" stroke="#294667" stroke-miterlimit="10" stroke-width="2"/>
+  <line id="Linha_56" data-name="Linha 56" x1="6.098" y1="6.098" transform="translate(271.656 265.906)"/>
+  <line id="Linha_57" data-name="Linha 57" x1="6.098" y1="6.098" transform="translate(271.656 265.906)" fill="none" stroke="#294667" stroke-miterlimit="10" stroke-width="2"/>
+  <line id="Linha_58" data-name="Linha 58" x1="6.256" y2="6.256" transform="translate(271.656 270.748)"/>
+  <line id="Linha_59" data-name="Linha 59" x1="6.256" y2="6.256" transform="translate(271.656 270.748)" fill="none" stroke="#294667" stroke-miterlimit="10" stroke-width="2"/>
+  <text id="COMPORTAMENTO_DIRETIVO" data-name="COMPORTAMENTO DIRETIVO" transform="translate(96.485 273.745)" fill="#414042" font-size="10" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">COMPORTAMENTO DIRETIVO</tspan></text>
+  <text id="DESENVOLVIDO" transform="translate(21.684 406.144)" fill="#414042" font-size="9.635" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">DESENVOLVIDO</tspan></text>
+  <text id="EM_DESENVOLVIMENTO" data-name="EM DESENVOLVIMENTO" transform="translate(205.773 406.144)" fill="#414042" font-size="9.635" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">EM DESENVOLVIMENTO</tspan></text>
+  <g id="Grupo_1307" data-name="Grupo 1307">
+    <g id="Grupo_1306" data-name="Grupo 1306" clip-path="url(#clip-path)">
+      <text id="NÍVEL_DE_DESENVOLVIMENTO_DO_S_COLABORADOR_ES_" data-name="NÍVEL DE DESENVOLVIMENTO DO(S) COLABORADOR(ES)" transform="translate(33.485 424.584)" fill="#414042" font-size="10" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">NÍVEL DE DESENVOLVIMENTO DO(S) COLABORADOR(ES)</tspan></text>
+    </g>
+  </g>
+  <path id="Caminho_1427" data-name="Caminho 1427" d="M110.871,401.983h0Z"/>
+  <rect id="Retângulo_998" data-name="Retângulo 998" width="87.938" height="2" transform="translate(110.871 400.983)" fill="#294667"/>
+  <line id="Linha_60" data-name="Linha 60" y1="6.098" x2="6.098" transform="translate(106.123 396.434)"/>
+  <rect id="Retângulo_999" data-name="Retângulo 999" width="8.624" height="2" transform="translate(105.416 401.825) rotate(-45)" fill="#294667"/>
+  <line id="Linha_61" data-name="Linha 61" x2="6.256" y2="6.256" transform="translate(105.965 401.276)"/>
+  <rect id="Retângulo_1000" data-name="Retângulo 1000" width="2" height="8.847" transform="translate(105.258 401.983) rotate(-45)" fill="#294667"/>
+  <text id="Baixo_grau_de_comportamento" data-name="Baixo grau de comportamento" transform="translate(32.923 53.414)" fill="#414042" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Baixo grau de comportamento</tspan></text>
+  <text id="diretivo_e_alto_grau_de_" data-name="diretivo e alto grau de " transform="translate(32.923 63.014)" fill="#414042" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">diretivo e alto grau de </tspan></text>
+  <text id="comportamento_de_apoio-2" data-name="comportamento de apoio" transform="translate(32.923 72.615)" fill="#414042" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">comportamento de apoio</tspan></text>
+  <text id="Alto_grau_de_comportamento" data-name="Alto grau de comportamento" transform="translate(196.651 53.414)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Alto grau de comportamento</tspan></text>
+  <text id="diretivo_e_alto_grau_de_2" data-name="diretivo e alto grau de " transform="translate(221.859 63.014)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">diretivo e alto grau de </tspan></text>
+  <text id="comportamento_de_apoio-3" data-name="comportamento de apoio" transform="translate(207.938 72.615)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">comportamento de apoio</tspan></text>
+  <text id="Baixo_grau_de_" data-name="Baixo grau de " transform="translate(109.747 224.111)" fill="#414042" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Baixo grau de </tspan></text>
+  <text id="comportamento" transform="translate(100.275 233.71)" fill="#414042" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">comportamento</tspan></text>
+  <text id="diretivo_e_baixo_grau_de_" data-name="diretivo e baixo grau de " transform="translate(70.203 243.311)" fill="#414042" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">diretivo e baixo grau de </tspan></text>
+  <text id="comportamento_de_apoio-4" data-name="comportamento de apoio" transform="translate(62.611 252.91)" fill="#414042" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">comportamento de apoio</tspan></text>
+  <text id="Alto_grau_de_" data-name="Alto grau de " transform="translate(179.819 224.111)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Alto grau de </tspan></text>
+  <text id="comportamento-2" data-name="comportamento" transform="translate(179.819 233.71)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">comportamento</tspan></text>
+  <text id="diretivo_e_baixo_grau_de_2" data-name="diretivo e baixo grau de " transform="translate(179.819 243.311)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">diretivo e baixo grau de </tspan></text>
+  <text id="comportamento_de_apoio-5" data-name="comportamento de apoio" transform="translate(179.819 252.91)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">comportamento de apoio</tspan></text>
+  <g id="Grupo_1309" data-name="Grupo 1309">
+    <g id="Grupo_1308" data-name="Grupo 1308" clip-path="url(#clip-path)">
+      <path id="Caminho_1428" data-name="Caminho 1428" d="M27.079,220.266c6.644.019,18.347.613,24.922-.051,19.139-1.933,32.913-11.75,40.953-29.36,4.451-9.749,6.8-20.055,8.125-30.632a12.914,12.914,0,0,0,.314-3.3,67.869,67.869,0,0,0,.766-7.621,4.6,4.6,0,0,1,.289-1.875c1.005.67.974,1.844,1.373,2.808a2.083,2.083,0,0,0,.509,1.193,5.424,5.424,0,0,1,1.311,2.4,3.441,3.441,0,0,0,.43,1.238,2.435,2.435,0,0,0,.948,1.228,6.71,6.71,0,0,1,1.428,2.734,2.175,2.175,0,0,0,.822,1.535c1.37,2,1.359,1.986,3.352.456a17.452,17.452,0,0,1,3.465-2.511c.555-.109.823-.548,1.1-.978a9.129,9.129,0,0,1,2.774-2.268,2.713,2.713,0,0,0,1.242-1.037c.592-.56,1.2-1.015,1.95-.23a2.314,2.314,0,0,1-.4,2.919c-.8,5.41-1.351,10.853-2.416,16.225-2.6,13.131-6.705,25.685-14.057,37.005-10.755,16.559-26.146,26.118-45.295,30.089-8.544,1.771-17.15,1.307-25.761,1.128-1.048-.022-7.1-.063-8.144-.1Z" fill="#1b8992"/>
+      <path id="Caminho_1429" data-name="Caminho 1429" d="M245.887,164.971a2.739,2.739,0,0,1,1.221,1.949c2.443,12.952,6.916,25.056,15.335,35.408,7.4,9.1,16.612,15.422,28.289,17.749a20.407,20.407,0,0,0,3.98.5c6.412-.009,18.827.179,25.231-.31V241.62c-5.714,0-17.429-.028-23.142.006a58.09,58.09,0,0,1-29.664-8.124c-18.36-10.54-29.658-26.688-36.453-46.35a127.444,127.444,0,0,1-4.12-15.352,2.036,2.036,0,0,1,.139-1.843c-.353-.835.145-1.422.584-2.027a2.846,2.846,0,0,0,.613-1.267,18.656,18.656,0,0,1,2.536-4.69,2.794,2.794,0,0,0,.614-1.269,14.333,14.333,0,0,1,2.712-4.742,1.665,1.665,0,0,1,.909-.429,1.394,1.394,0,0,1,.487.072c.541.3.841.931,1.5,1.072a11.961,11.961,0,0,1,2.6,1.988c.35.475.641,1.015,1.285,1.174a28.825,28.825,0,0,1,4.306,3.359c.338.422.565.92.92,1.331a1.365,1.365,0,0,1,.121.442" fill="#fff"/>
+      <path id="Caminho_1430" data-name="Caminho 1430" d="M120.123,155.505c-.539,1.081-1.845,1.4-2.418,2.452-.645-.107-.788.811-1.435.7-1.384,1.8-3.373,2.884-5.087,4.29-.554.454-1.193.213-1.54-.507-.273-.566-.585-1.115-.879-1.671a3.95,3.95,0,0,1-.7-1.433q-.712-1.418-1.425-2.836a7.474,7.474,0,0,1-1.377-2.429,8.812,8.812,0,0,0-1.4-2.27c-.017-.4-.308-.742-.287-1.157a4.558,4.558,0,0,1-1.126-3.215,121.356,121.356,0,0,1,3.876-23.746c3.442-13.467,8.844-26.034,17.692-36.9C135.21,73.047,149.4,64.363,167.1,61.813c1.44-.208,2.893-.32,4.341-.476A50.972,50.972,0,0,1,188.052,63.8c.543.176,1.055.444,1.582.669-.138.931-1.022.825-1.6,1.149a7.962,7.962,0,0,0-1.7.407c-.161.03-.323.056-.484.078-.769.245-1.581.331-2.336.627-.159.028-.319.053-.479.075-.765.248-1.575.332-2.327.625-.159.03-.318.055-.478.077-.686.224-1.412.305-2.081.587a6.127,6.127,0,0,0-1.618.383c-.154.029-.31.052-.465.074-.507.12-1.029.22-1.141.858-.039.495.328.788.558,1.148a1.925,1.925,0,0,1,.2.414,2.436,2.436,0,0,0,.472,1.239,1.837,1.837,0,0,1,.209.409,2.326,2.326,0,0,0,.708,1.371,4.611,4.611,0,0,1,.7,1.423,2.816,2.816,0,0,0,.531,1.155,1.927,1.927,0,0,1,.184.4,2.34,2.34,0,0,0,.472,1.207,1.756,1.756,0,0,1,.206.4,2.326,2.326,0,0,0,.716,1.371,5.182,5.182,0,0,1,.737,1.469c.09.562.553,1,.541,1.6a.932.932,0,0,1-.394.688c-.961.59-1.931.168-2.888.008a21.23,21.23,0,0,0-6.226-.489c-11.4,1.078-20.708,6.315-28.386,14.559a62.971,62.971,0,0,0-12.459,20.659A108.3,108.3,0,0,0,124.5,145.2c-.263,2.31-.532,4.618-.706,6.937-.053.7-.2,1.41-1.06,1.614a2.039,2.039,0,0,0-1.178,1.05c-.644-.106-.789.81-1.435.7" fill="#3e6d93"/>
+      <path id="Caminho_1431" data-name="Caminho 1431" d="M180.189,81.61l-.682-1.234a3.991,3.991,0,0,1-.684-1.819l-.083-.111a2.7,2.7,0,0,1-.65-1.488c-.022-.107-.044-.215-.067-.323-.448-.171-.52-.588-.635-.976l-.682-1.238a3.861,3.861,0,0,1-.679-1.806l-.088-.12a2.7,2.7,0,0,1-.65-1.491c-.022-.106-.044-.213-.067-.32-.57-.308-.684-.89-.861-1.434.006-1.1,1.288-.563,1.614-1.254l.351-.006c.625.263,1.155-.274,1.757-.208.673-.353,1.546-.206,2.107-.84l.321-.006a3.416,3.416,0,0,0,2.48-.694l.319-.007a3.425,3.425,0,0,0,2.487-.695l.316,0c.724.2,1.355-.24,2.041-.3a11.255,11.255,0,0,1,1.865-.43c.746-.319,1.362.124,1.993.372a74.775,74.775,0,0,1,31.939,24.182c10.826,13.825,16.671,29.754,19.608,46.9,1.172,6.842,1.359,13.778,2.145,20.656.257,2.247.49,4.5.786,6.74.082.621.222,1.159-.6,1.316l-.027.005c-.594-.365-.845-1.072-1.44-1.436-1.507-.892-2.6-2.344-4.212-3.1-.525-.427-.812-1.08-1.39-1.456l-2.412-1.711c-.592-.367-.846-1.071-1.438-1.439l.037.027c-.472-.195-.818-.139-.893.451a19.508,19.508,0,0,0-2.491,4.873c-.471.18-.572.6-.661,1.026a21.893,21.893,0,0,0-2.5,4.945c-.476.168-.556.59-.648,1.006l-1.106,1.792c-1.042-.686-.781-1.857-.935-2.808-.55-3.4-.961-6.822-1.424-10.236-1.376-1.576-.912-3.586-1.018-5.349-.736-12.211-3.1-24.053-8.286-35.158-6.776-14.51-16.953-25.691-32.323-31.46-.8-.3-1.717-.54-1.826-1.64-.022-.24-.045-.48-.067-.719-.447-.173-.519-.589-.635-.977" fill="#cce3f2"/>
+    </g>
+  </g>
+  <text id="D" transform="matrix(0.958, -0.286, 0.286, 0.958, 59.335, 235.317)" fill="#fff" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">D</tspan></text>
+  <text id="E" transform="translate(67.967 232.662) rotate(-22.534)" fill="#fff" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">E</tspan></text>
+  <text id="L" transform="translate(74.177 230.042) rotate(-27.646)" fill="#fff" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">L</tspan></text>
+  <text id="E-2" data-name="E" transform="matrix(0.838, -0.546, 0.546, 0.838, 79.318, 227.351)" fill="#fff" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">E</tspan></text>
+  <text id="G" transform="matrix(0.759, -0.651, 0.651, 0.759, 85.199, 223.587)" fill="#fff" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">G</tspan></text>
+  <text id="A" transform="matrix(0.657, -0.754, 0.754, 0.657, 92.752, 216.995)" fill="#fff" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">A</tspan></text>
+  <text id="Ç" transform="matrix(0.551, -0.834, 0.834, 0.551, 98.669, 210.166)" fill="#fff" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Ç</tspan></text>
+  <text id="Ã" transform="translate(104.042 201.908) rotate(-63.075)" fill="#fff" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Ã</tspan></text>
+  <text id="O" transform="translate(108.061 193.97) rotate(-68.914)" fill="#fff" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">O</tspan></text>
+  <text id="D-2" data-name="D" transform="translate(241.13 195.335) rotate(63.998)" fill="#3e6d93" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">D</tspan></text>
+  <text id="I" transform="matrix(0.497, 0.868, -0.868, 0.497, 245.096, 203.244)" fill="#3e6d93" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">I</tspan></text>
+  <text id="R" transform="translate(246.784 206.319) rotate(56.346)" fill="#3e6d93" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">R</tspan></text>
+  <text id="E-3" data-name="E" transform="matrix(0.629, 0.778, -0.778, 0.629, 251.291, 213.001)" fill="#3e6d93" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">E</tspan></text>
+  <text id="Ç-2" data-name="Ç" transform="translate(255.565 218.37) rotate(44.722)" fill="#3e6d93" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Ç</tspan></text>
+  <text id="Ã-2" data-name="Ã" transform="matrix(0.794, 0.608, -0.608, 0.794, 262.674, 225.311)" fill="#3e6d93" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Ã</tspan></text>
+  <text id="O-2" data-name="O" transform="matrix(0.863, 0.506, -0.506, 0.863, 269.821, 230.767)" fill="#3e6d93" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">O</tspan></text>
+  <text id="A-2" data-name="A" transform="translate(124.525 121.607) rotate(-70.237)" fill="#fff" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">A</tspan></text>
+  <text id="P" transform="translate(127.304 113.89) rotate(-64.983)" fill="#fff" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">P</tspan></text>
+  <text id="O-3" data-name="O" transform="matrix(0.529, -0.849, 0.849, 0.529, 130.139, 107.583)" fill="#fff" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">O</tspan></text>
+  <text id="I-2" data-name="I" transform="matrix(0.615, -0.788, 0.788, 0.615, 135.112, 99.885)" fill="#fff" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">I</tspan></text>
+  <text id="O-4" data-name="O" transform="translate(136.802 97.424) rotate(-45.635)" fill="#fff" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">O</tspan></text>
+  <text id="T" transform="translate(187.743 83.567) rotate(34.724)" fill="#3e6d93" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">T</tspan></text>
+  <text id="R-2" data-name="R" transform="matrix(0.86, 0.511, -0.511, 0.86, 194.112, 87.244)" fill="#3e6d93" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">R</tspan></text>
+  <text id="E-4" data-name="E" transform="translate(200.419 91.024) rotate(37.99)" fill="#3e6d93" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">E</tspan></text>
+  <text id="I-3" data-name="I" transform="translate(205.2 94.835) rotate(42.864)" fill="#3e6d93" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">I</tspan></text>
+  <text id="N" transform="translate(207.487 96.758) rotate(48.714)" fill="#3e6d93" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">N</tspan></text>
+  <text id="A-3" data-name="A" transform="matrix(0.554, 0.832, -0.832, 0.554, 213.024, 103.072)" fill="#3e6d93" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">A</tspan></text>
+  <text id="M" transform="matrix(0.445, 0.895, -0.895, 0.445, 217.577, 109.796)" fill="#3e6d93" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">M</tspan></text>
+  <text id="E-5" data-name="E" transform="translate(222.118 119.136) rotate(69.378)" fill="#3e6d93" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">E</tspan></text>
+  <text id="N-2" data-name="N" transform="translate(224.327 124.856) rotate(74.304)" fill="#3e6d93" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">N</tspan></text>
+  <text id="T-2" data-name="T" transform="translate(226.59 133.047) rotate(78.921)" fill="#3e6d93" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">T</tspan></text>
+  <text id="O-5" data-name="O" transform="matrix(0.119, 0.993, -0.993, 0.119, 227.909, 139.536)" fill="#3e6d93" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">O</tspan></text>
+</svg>
