@@ -6,7 +6,7 @@
         TEORIAS DE LIDERANÇA E SUA APLICABILIDADE NA PRÁTICA</p>
 </div>
 <div style="margin-top: 75px;margin-left: 40px;width: 808px;">
-    <p style="">O marco dos estudos de motivação é a Teoria da Hierarquia das Necessidades de Maslow ou Pirâmide de
+    <p>O marco dos estudos de motivação é a Teoria da Hierarquia das Necessidades de Maslow ou Pirâmide de
         Maslow. Na base
         dessa pirâmide, encontram-se as necessidades mais básicas, chamadas de primárias, e, no topo, as mais
         complexas,
@@ -15,7 +15,52 @@
         de segurança; já as necessidades secundárias são as afetivo-sociais, as de estima e as de autorrealização.
     </p>
     <img class="animate__animated animate__backInRight" src="recursos/imgs/img-slide-68.svg"
-        style="margin-left: 76px;margin-top: 50px;">
+        style="width: 650px;margin-left: 76px;margin-top: 20px;">
+</div>
+<div>
+    <div id="botao_1" style="position: absolute;top: 254px;left: 116px;width: 130px;height: 100px;cursor: pointer; ">
+    </div>
+    <div id="botao_2" style="position: absolute;top: 254px;left: 247px;width: 130px;height: 100px;cursor: pointer; ">
+    </div>
+    <div id="botao_3" style="position: absolute;top: 254px;left: 378px;width: 129px;height: 100px;cursor: pointer; ">
+    </div>
+    <div id="botao_4" style="position: absolute;top: 254px;left: 509px;width: 124px;height: 100px;cursor: pointer; ">
+    </div>
+    <div id="botao_5" style="position: absolute;top: 254px;left: 635px;width: 130px;height: 100px;cursor: pointer; ">
+    </div>
+</div>
+<div>
+    <div id="janela_1"
+        style="position: absolute; top: 230px; left: 160px; width: 562px; height: 184px; background: 0% 0% no-repeat padding-box padding-box rgb(41, 70, 103); border-radius: 10px; cursor: pointer; display: none;">
+        <p style="margin-top: 50px;margin-left: 239px;font-size: 14px;color: #FFFFFF;">FISIOLÓGICA</p>
+        <p style="color: white;font-size: 12px;margin-top: 20px;margin-left: 32px;width: 499px;">Abrange fome, sede,
+            abrigo, sexo e outras.</p>
+    </div>
+    <div id="janela_2"
+        style="position: absolute;top: 230px;left: 160px;width: 562px;height: 184px;background: #3E6D92 0% 0% no-repeat padding-box;border-radius: 10px;cursor: pointer;">
+        <p style="margin-top: 57px;margin-left: 239px;font-size: 14px;color: #FFFFFF;">SEGURANÇA</p>
+        <p style="color: white;font-size: 12px;margin-top: 20px;margin-left: 32px;width: 499px;">Envolve segurança e
+            proteção contra danos físicos e emocionais.</p>
+    </div>
+    <div id="janela_3"
+        style="position: absolute;top: 230px;left: 160px;width: 562px;height: 184px;background: #F29F00 0% 0% no-repeat padding-box;border-radius: 10px;cursor: pointer;">
+        <p style="margin-top: 57px;margin-left: 257px;font-size: 14px;color: #FFFFFF;">SOCIAL</p>
+        <p style="color: white;font-size: 12px;margin-top: 20px;margin-left: 32px;width: 499px;">Inclui afeto,
+            sentimento de pertencer a algum lugar, aceitação e amizade.</p>
+    </div>
+    <div id="janela_4"
+        style="position: absolute;top: 230px;left: 160px;width: 562px;height: 184px;background: #1B8891 0% 0% no-repeat padding-box;border-radius: 10px;cursor: pointer;">
+        <p style="margin-top: 50px;margin-left: 257px;font-size: 14px;color: #FFFFFF;">ESTIMA</p>
+        <p style="color: white;font-size: 12px;margin-top: 20px;margin-left: 32px;width: 499px;">Contempla fatores
+            internos, como respeito próprio, autonomia e realização, e fatores externos, como status,
+            reconhecimento e atenção.</p>
+    </div>
+    <div id="janela_5"
+        style="position: absolute; top: 230px; left: 160px; width: 562px; height: 184px; background: 0% 0% no-repeat padding-box padding-box rgb(27, 136, 145); border-radius: 10px; cursor: pointer;">
+        <p style="margin-top: 53px;margin-left: 209px;font-size: 14px;color: #FFFFFF;">REALIZAÇÃO PESSOAL</p>
+        <p style="color: white;font-size: 12px;margin-top: 20px;margin-left: 32px;width: 499px;">Representa o esforço
+            para tornar-se o que se pode ser; inclui crescimento, alcance do potencial e autorrealização.</p>
+    </div>
 </div>
 <footer style="width: 1008px;height: 19px;display: flex;background-color: #FFA800;">
     <div style="margin-top: -8px;display: flex;margin-left: 42px;">
@@ -28,3 +73,28 @@
         </p>
     </div>
 </footer>
+<script>
+    $(() => {
+        let janelas = $(document).find('[id^=janela]').css('cursor', 'pointer').on("click", apagarJanelas);
+        apagarJanelas();
+        $(document).find('[id^=btn]').hide();
+        let botoes = $(document).find('[id^=botao]').map((index, botao) => {
+            $(botao).css('cursor', 'pointer');
+            $(botao).hover(() => {
+                $(document).find(`[id=btn_${index + 1}_2]`).show();
+            });
+            $(botao).mouseleave(() => {
+                $(document).find('[id^=btn]').hide();
+            });
+            $(botao).click(() => {
+                apagarJanelas();
+                $(janelas[index]).fadeIn();
+            })
+        })
+        function apagarJanelas() {
+            janelas.map((index, janela) => {
+                $(janela).hide();
+            })
+        }
+    })
+</script>
