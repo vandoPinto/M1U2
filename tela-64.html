@@ -10,6 +10,49 @@
     <img class="animate__animated animate__backInRight" src="recursos/imgs/img-slide-64.svg"
         style="margin-top: 90px;margin-left: 20px;">
 </div>
+<div>
+    <div id="botao_1" style="position: absolute;top: 313px;left: 160px;width: 50px;height: 50px;cursor: pointer; ">
+    </div>
+    <div id="botao_2" style="position: absolute;top: 313px;left: 320px;width: 50px;height: 50px;cursor: pointer; ">
+    </div>
+    <div id="botao_3" style="position: absolute;top: 313px;left: 430px;width: 50px;height: 50px;cursor: pointer; ">
+    </div>
+    <div id="botao_4" style="position: absolute;top: 313px;left: 640px;width: 50px;height: 50px;cursor: pointer; ">
+    </div>
+</div>
+<div>
+    <div id="janela_1"
+        style="position: absolute;top: 220px;left: 160px;width: 562px;height: 115px;background: #294667 0% 0% no-repeat padding-box;border-radius: 10px;border-radius: 10px;cursor: pointer;">
+        <p style="margin-top: 20px;margin-left: 186px;font-size: 14px;color: #FFFFFF;">REMETENTE E CODIFICAÇÃO</p>
+        <p style="color: white;font-size: 12px;margin-top: 10px;margin-left: 56px;width: 499px;">O <b>remetente</b> é
+            quem
+            origina a mensagem pela <b>codificação</b> de um pensamento, que representa a conversão de uma mensagem
+            de
+            maneira simbólica.</p>
+    </div>
+    <div id="janela_2"
+        style="position: absolute;top: 220px;left: 160px;width: 562px;height: 115px;background: #1A868F 0% 0% no-repeat padding-box;border-radius: 10px;cursor: pointer;">
+        <p style="margin-top: 20px;margin-left: 243px;font-size: 14px;color: #FFFFFF;">MENSAGEM</p>
+        <p style="color: white;font-size: 12px;margin-top: 10px;margin-left: 57px;width: 451px;">
+            A <b>mensagem</b> consiste no produto físico da codificação do remetente, ou seja, a informação que é
+            enviada.</p>
+    </div>
+    <div id="janela_3"
+        style="position: absolute; top: 220px; left: 160px; width: 562px; height: 115px; background: 0% 0% no-repeat padding-box padding-box rgb(26, 134, 143); border-radius: 10px; cursor: pointer;">
+        <p style="margin-top: 34px;margin-left: 258px;font-size: 14px;color: #FFFFFF;">CANAL</p>
+        <p style="color: white;font-size: 12px;margin-top: 10px;margin-left: 83px;width: 451px;">
+            O <b>canal</b> refere-se ao meio no qual uma mensagem é conduzida.</p>
+    </div>
+    <div id="janela_4"
+        style="position: absolute;top: 220px;left: 160px;width: 562px;height: 115px;background: #0F793D 0% 0% no-repeat padding-box;border-radius: 10px;cursor: pointer;">
+        <p style="margin-top: 13px;margin-left: 132px;font-size: 14px;color: #FFFFFF;">DECODIFICAÇÃO, DESTINATÁRIO E
+            FEEDBACK</p>
+        <p style="color: white;font-size: 12px;margin-top: 10px;margin-left: 56px;width: 451px;">A <b>decodificação</b>
+            caracteriza-se como a tradução feita pelo receptor da mensagem de um remetente, e o <b>feedback</b> é quando
+            a
+            informação é recebida pelo remetente do <b>destinatário</b> e diz respeito à mensagem enviada.</p>
+    </div>
+</div>
 <footer style="width: 1008px;height: 19px;display: flex;background-color: #FFA800;">
     <div style="margin-top: -8px;display: flex;margin-left: 42px;">
         <p style="color: white;font-size: 12px;">MÓDULO 1</p>
@@ -21,3 +64,28 @@
         </p>
     </div>
 </footer>
+<script>
+    $(() => {
+        let janelas = $(document).find('[id^=janela]').css('cursor', 'pointer').on("click", apagarJanelas);
+        apagarJanelas();
+        $(document).find('[id^=btn]').hide();
+        let botoes = $(document).find('[id^=botao]').map((index, botao) => {
+            $(botao).css('cursor', 'pointer');
+            $(botao).hover(() => {
+                $(document).find(`[id=btn_${index + 1}_2]`).show();
+            });
+            $(botao).mouseleave(() => {
+                $(document).find('[id^=btn]').hide();
+            });
+            $(botao).click(() => {
+                apagarJanelas();
+                $(janelas[index]).fadeIn();
+            })
+        })
+        function apagarJanelas() {
+            janelas.map((index, janela) => {
+                $(janela).hide();
+            })
+        }
+    })
+</script>

@@ -9,11 +9,46 @@
 
     <p style="font-size: 13px;">Peduzzi e Ciampone (2012) destacam a importância de investir em três dimensões para
         potencializar o trabalho em equipe.</p>
-    <p style="
-    font-size: 13px;
-">Clique sobre as dimensões para conhecê-las.</p>
+    <p style="font-size: 13px;">Clique sobre as dimensões para conhecê-las.</p>
     <img class="animate__animated animate__backInRight" src="recursos/imgs/img-slide-61.svg"
         style="margin-left: 90px;margin-top: 30px;">
+</div>
+<div>
+    <div id="botao_1" style="position: absolute;top: 213px;left: 150px;width: 315px;height: 100px;cursor: pointer; ">
+    </div>
+    <div id="botao_2" style="position: absolute;top: 213px;left: 466px;width: 275px;height: 100px;cursor: pointer; ">
+    </div>
+    <div id="botao_3" style="position: absolute;top: 323px;left: 320px;width: 285px;height: 100px;cursor: pointer; ">
+    </div>
+</div>
+<div>
+    <div id="janela_1"
+        style="position: absolute;top: 200px;left: 160px;width: 562px;height: 184px;background: #1B8790 0% 0% no-repeat padding-box;border-radius: 10px;cursor: pointer;">
+        <p style="margin-top: 34px;margin-left: 207px;font-size: 14px;color: #FFFFFF;">DIMENSÃO INDIVIDUAL</p>
+        <p style="color: white;font-size: 12px;margin-top: 10px;margin-left: 32px;width: 499px;">São os investimentos
+            pessoais em prol da busca pelo autoconhecimento. Contudo, a escassez de habilidades pessoais para
+            mobilizar o potencial interno pode ser resultado de: falta de experiências e interações que oportunizem a
+            aprendizagem;
+            sentimentos negativos que dificultam a utilização dessas habilidades; divergências entre a extensão dos
+            problemas reais
+            e as ferramentas que a pessoa disponibiliza para enfrentá-los.</p>
+    </div>
+    <div id="janela_2"
+        style="position: absolute;top: 200px;left: 160px;width: 562px;height: 184px;background: #294667 0% 0% no-repeat padding-box;border-radius: 10px;cursor: pointer;">
+        <p style="margin-top: 45px;margin-left: 218px;font-size: 14px;color: #FFFFFF;">DIMENSÃO GRUPAL</p>
+        <p style="color: white;font-size: 12px;margin-top: 10px;margin-left: 32px;width: 499px;">São os investimentos do
+            grupo em prol da aprendizagem coletiva e da análise ampliada das situações-problema;
+            identificação de possibilidades e alternativas; sentimentos que permeiam o campo grupal, podendo ser
+            explícitos e
+            implícitos.</p>
+    </div>
+    <div id="janela_3"
+        style="position: absolute;top: 200px;left: 160px;width: 562px;height: 184px;background: #3E6D93 0% 0% no-repeat padding-box;border-radius: 10px;cursor: pointer;">
+        <p style="margin-top: 45px;margin-left: 194px;font-size: 14px;color: #FFFFFF;">DIMENSÃO INSTITUCIONAL</p>
+        <p style="color: white;font-size: 12px;margin-top: 10px;margin-left: 32px;width: 499px;">SSão os investimentos
+            diversos, tais como: transformações da filosofia, da estruturada organizacional e das políticas de
+            gestão de pessoal, elementos essenciais para o trabalho em equipe.</p>
+    </div>
 </div>
 <footer style="width: 1008px;height: 19px;display: flex;background-color: #FFA800;">
     <div style="margin-top: -8px;display: flex;margin-left: 42px;">
@@ -26,3 +61,28 @@
         </p>
     </div>
 </footer>
+<script>
+    $(() => {
+        let janelas = $(document).find('[id^=janela]').css('cursor', 'pointer').on("click", apagarJanelas);
+        apagarJanelas();
+        $(document).find('[id^=btn]').hide();
+        let botoes = $(document).find('[id^=botao]').map((index, botao) => {
+            $(botao).css('cursor', 'pointer');
+            $(botao).hover(() => {
+                $(document).find(`[id=btn_${index + 1}_2]`).show();
+            });
+            $(botao).mouseleave(() => {
+                $(document).find('[id^=btn]').hide();
+            });
+            $(botao).click(() => {
+                apagarJanelas();
+                $(janelas[index]).fadeIn();
+            })
+        })
+        function apagarJanelas() {
+            janelas.map((index, janela) => {
+                $(janela).hide();
+            })
+        }
+    })
+</script>
