@@ -10,6 +10,64 @@
     <p>Clique nelas para conhecer suas características.</p>
     <img class="animate__animated animate__backInRight" src="recursos/imgs/img-slide-58.svg" style="margin-top: 40px;">
 </div>
+<div>
+    <div id="botao_1" style="position: absolute;top: 219px;left: 41px;width: 265px;height: 68px; cursor: pointer;">
+    </div>
+    <div id="botao_2" style="position: absolute;top: 219px;left: 311px;width: 265px;height: 68px; cursor: pointer;">
+    </div>
+    <div id="botao_3" style="position: absolute;top: 219px;left: 578px;width: 265px;height: 68px; cursor: pointer;">
+    </div>
+    <div id="botao_4" style="position: absolute;top: 336px;left: 41px;width: 265px;height: 68px; cursor: pointer;">
+    </div>
+    <div id="botao_5" style="position: absolute;top: 336px;left: 311px;width: 265px;height: 68px; cursor: pointer;">
+    </div>
+    <div id="botao_6" style="position: absolute;top: 336px;left: 578px;width: 265px;height: 68px; cursor: pointer;">
+    </div>
+</div>
+<div>
+    <div id="janela_1"
+        style="position: absolute;top: 200px;left: 160px;width: 562px;height: 184px;background: #F4BB2A 0% 0% no-repeat padding-box;border-radius: 10px;cursor: pointer;">
+        <p style="margin-top: 50px;margin-left: 116px;font-size: 14px;color: #FFFFFF;">EQUIPES TRADICIONAIS LIDERADAS
+            POR GERENTES</p>
+        <p style="color: white;font-size: 12px;margin-top: 20px;margin-left: 32px;width: 499px;">Os integrantes da
+            equipe possuem pouco ou nenhum envolvimento no processo decisório relacionado às metas da equipe,
+            contudo podem participar das decisões que versam acerca da forma de execução do trabalho.</p>
+    </div>
+    <div id="janela_2"
+        style="position: absolute;top: 200px;left: 160px;width: 562px;height: 184px;background: #1B8790 0% 0% no-repeat padding-box;border-radius: 10px;cursor: pointer;">
+        <p style="margin-top: 50px;margin-left: 186px;font-size: 14px;color: #FFFFFF;">EQUIPES AUTOGERENCIADAS</p>
+        <p style="color: white;font-size: 12px;margin-top: 20px;margin-left: 32px;width: 499px;">Os integrantes da
+            equipe realizam atividades tradicionalmente desempenhadas por supervisores ou gerentes, tais como:
+            planejamento, programação e avaliação do desempenho.</p>
+    </div>
+    <div id="janela_3"
+        style="position: absolute;top: 200px;left: 160px;width: 562px;height: 184px;background: #294667 0% 0% no-repeat padding-box;border-radius: 10px;cursor: pointer;">
+        <p style="margin-top: 50px;margin-left: 186px;font-size: 14px;color: #FFFFFF;">EQUIPES MULTIFUNCIONAIS</p>
+        <p style="color: white;font-size: 12px;margin-top: 20px;margin-left: 32px;width: 499px;">São compostas por
+            integrantes de diversas unidades de trabalho e suas atividades são realizadas de modo interfuncional.</p>
+    </div>
+    <div id="janela_4"
+        style="position: absolute;top: 200px;left: 160px;width: 562px;height: 184px;background: #6DAFCC 0% 0% no-repeat padding-box;border-radius: 10px;cursor: pointer;">
+        <p style="margin-top: 57px;margin-left: 222px;font-size: 14px;color: #FFFFFF;">EQUIPES VIRTUAIS</p>
+        <p style="color: white;font-size: 12px;margin-top: 20px;margin-left: 32px;width: 519px;">Os integrantes da
+            equipe estão distantes e interagem por intermédio da tecnologia.</p>
+    </div>
+    <div id="janela_5"
+        style="position: absolute;top: 200px;left: 160px;width: 562px;height: 184px;background: #108141 0% 0% no-repeat padding-box;border-radius: 10px;cursor: pointer;">
+        <p style="margin-top: 57px;margin-left: 155px;font-size: 14px;color: #FFFFFF;">FORÇAS-TAREFA OU EQUIPES AD HOC
+        </p>
+        <p style="color: white;font-size: 12px;margin-top: 20px;margin-left: 32px;width: 499px;">Os integrantes da
+            equipe
+            trabalham juntos em projetos ou atividades por tempo limitado.</p>
+    </div>
+    <div id="janela_6"
+        style="position: absolute;top: 200px;left: 160px;width: 562px;height: 184px;background: #3E6D93 0% 0% no-repeat padding-box;border-radius: 10px;cursor: pointer;">
+        <p style="margin-top: 53px;margin-left: 205px;font-size: 14px;color: #FFFFFF;">EQUIPES PERMANENTES</p>
+        <p style="color: white;font-size: 12px;margin-top: 20px;margin-left: 32px;width: 520px;">Os integrantes da
+            equipe trabalham juntos em atividades permanentes e constituem elemento formal do desenho
+            organizacional.</p>
+    </div>
+</div>
 <footer style="width: 1008px;height: 19px;display: flex;background-color: #FFA800;">
     <div style="margin-top: -8px;display: flex;margin-left: 42px;">
         <p style="color: white;font-size: 12px;">MÓDULO 1</p>
@@ -21,3 +79,28 @@
         </p>
     </div>
 </footer>
+<script>
+    $(() => {
+        let janelas = $(document).find('[id^=janela]').css('cursor', 'pointer').on("click", apagarJanelas);
+        apagarJanelas();
+        $(document).find('[id^=btn]').hide();
+        let botoes = $(document).find('[id^=botao]').map((index, botao) => {
+            $(botao).css('cursor', 'pointer');
+            $(botao).hover(() => {
+                $(document).find(`[id=btn_${index + 1}_2]`).show();
+            });
+            $(botao).mouseleave(() => {
+                $(document).find('[id^=btn]').hide();
+            });
+            $(botao).click(() => {
+                apagarJanelas();
+                $(janelas[index]).fadeIn();
+            })
+        })
+        function apagarJanelas() {
+            janelas.map((index, janela) => {
+                $(janela).hide();
+            })
+        }
+    })
+</script>

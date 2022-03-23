@@ -16,6 +16,44 @@
     <img class="animate__animated animate__backInRight" src="recursos/imgs/img-slide-60.svg"
         style="margin-left: 70px;margin-top: 50px;">
 </div>
+<div>
+    <div id="botao_1" style="position: absolute;top: 279px;left: 150px;width: 285px;height: 100px;cursor: pointer; ">
+    </div>
+    <div id="botao_2" style="position: absolute;top: 279px;left: 435px;width: 285px;height: 100px;cursor: pointer; ">
+    </div>
+</div>
+<div>
+    <div id="janela_1"
+        style="position: absolute;top: 200px;left: 160px;width: 562px;height: 243px;background: #1B8790 0% 0% no-repeat padding-box;border-radius: 10px;cursor: pointer;">
+        <p style="margin-top: 15px;margin-left: 240px;font-size: 14px;color: #FFFFFF;">VANTAGENS</p>
+        <p style="color: white;font-size: 12px;margin-top: 10px;margin-left: 32px;width: 499px;">• Proporciona variadas
+            percepções. </p>
+        <p style="color: white;font-size: 12px;margin-left: 32px;width: 499px;">• Engloba pessoas com
+            crenças e valores distintos, preocupações e concepções
+            diferentes, o que eleva a possibilidade de que as questões e as pautas relevantes emerjam.</p>
+        <p style="color: white;font-size: 12px;margin-left: 32px;width: 499px;">• Agrega conhecimentos
+            e
+            vivências dos integrantes da equipe; fortalece o compromisso com a execução das atividades, ao passo que as
+            pessoas
+            compreendem o motivo pelo qual determinada decisão foi tomada.</p>
+        <p style="color: white;font-size: 12px;margin-left: 32px;width: 499px;">• Colabora para o
+            desenvolvimento de equipes, pois as
+            pessoas desenvolvem competências e habilidades quando integram equipes de tomada de decisões.</p>
+    </div>
+    <div id="janela_2"
+        style="position: absolute;top: 200px;left: 160px;width: 562px;height: 184px;background: #294667 0% 0% no-repeat padding-box;border-radius: 10px;cursor: pointer;">
+        <p style="margin-top: 15px;margin-left: 228px;font-size: 14px;color: #FFFFFF;">DESVANTAGENS</p>
+        <p style="color: white;font-size: 12px;margin-top: 10px;margin-left: 32px;width: 499px;">• Aumenta o tempo para
+            se chegar a uma decisão em virtude da ampliação do número de pessoas envolvidas.
+        </p>
+        <p style="color: white;font-size: 12px;margin-left: 32px;width: 499px;">• Torna as
+            reuniões de equipes ineficazes, pois quando não bem organizadas, acabam desperdiçando o tempo e podem gerar
+            distanciamento do grupo.</p>
+        <p style="color: white;font-size: 12px;margin-left: 32px;width: 499px;">• Quando existe forte coesão, ocorre o
+            pensamento coletivo, os membros evitam criticar as
+            ideias dos outros e deixam de pensar objetivamente sobre a decisão.</p>
+    </div>
+</div>
 <footer style="width: 1008px;height: 19px;display: flex;background-color: #FFA800;">
     <div style="margin-top: -8px;display: flex;margin-left: 42px;">
         <p style="color: white;font-size: 12px;">MÓDULO 1</p>
@@ -27,3 +65,28 @@
         </p>
     </div>
 </footer>
+<script>
+    $(() => {
+        let janelas = $(document).find('[id^=janela]').css('cursor', 'pointer').on("click", apagarJanelas);
+        apagarJanelas();
+        $(document).find('[id^=btn]').hide();
+        let botoes = $(document).find('[id^=botao]').map((index, botao) => {
+            $(botao).css('cursor', 'pointer');
+            $(botao).hover(() => {
+                $(document).find(`[id=btn_${index + 1}_2]`).show();
+            });
+            $(botao).mouseleave(() => {
+                $(document).find('[id^=btn]').hide();
+            });
+            $(botao).click(() => {
+                apagarJanelas();
+                $(janelas[index]).fadeIn();
+            })
+        })
+        function apagarJanelas() {
+            janelas.map((index, janela) => {
+                $(janela).hide();
+            })
+        }
+    })
+</script>
