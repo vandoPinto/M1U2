@@ -23,15 +23,18 @@
             culturais e
             tecnológicas.</p>
     </div>
-    <div class="coluna-direita animate__animated animate__backInRight" style="
-    margin-top: 20px;
-    margin-right: 50px;
-    width: 360px;
-">
+    <div class="coluna-direita animate__animated animate__backInRight"
+        style="margin-top: 20px;margin-right: 50px;width: 360px;">
         <p>Clique no quadro a seguir para conhecer alguns conceitos elaborados por autores de destaque na área de
             gestão.</p>
         <img style="margin-top: -30px;margin-right: 77px;width: 353px;height: 360px;"
             src="recursos/imgs/img-slide-5.svg">
+        <div id="botao_1"
+            style="width: 370px;height: 270px; cursor: pointer;position: absolute;top: 97px;">
+        </div>
+        <img id="janela_1"
+            style="top: -69px;left: -453px;width: 847px;height: 450px;cursor: pointer;position: absolute;"
+            src="recursos/imgs/img-slide-5-conceitos.svg">
     </div>
 </div>
 <footer style="width: 1008px;height: 19px;display: flex;background-color: #FFA800;">
@@ -45,3 +48,28 @@
         </p>
     </div>
 </footer>
+<script>
+    $(() => {
+        let janelas = $(document).find('[id^=janela]').css('cursor', 'pointer').on("click", apagarJanelas);
+        apagarJanelas();
+        $(document).find('[id^=btn]').hide();
+        let botoes = $(document).find('[id^=botao]').map((index, botao) => {
+            $(botao).css('cursor', 'pointer');
+            $(botao).hover(() => {
+                $(document).find(`[id=btn_${index + 1}_2]`).show();
+            });
+            $(botao).mouseleave(() => {
+                $(document).find('[id^=btn]').hide();
+            });
+            $(botao).click(() => {
+                apagarJanelas();
+                $(janelas[index]).fadeIn();
+            })
+        })
+        function apagarJanelas() {
+            janelas.map((index, janela) => {
+                $(janela).hide();
+            })
+        }
+    })
+</script>
